@@ -40,6 +40,14 @@ multiplyButton.addEventListener ('click', () => {
     const product = multiply(num5, num6);
     multiplyAnswer.textContent = product;
 });
+
+const divideNumber1 = document.getElementById('divide-number-1');
+const divideNumber2 = document.getElementById('divide-number-2');
+const divideButton = document.getElementById('divide-button');
+const divideAnswer = document.getElementById('divide-answer');
+
+divideButton.addEventListener ('click', () => {
+});
     // get user input(s)
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
