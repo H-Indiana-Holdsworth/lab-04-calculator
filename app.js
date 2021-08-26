@@ -7,6 +7,11 @@ const addNumber2 = document.getElementById('add-number-2');
 const addButton = document.getElementById('add-button');
 const addAnswer = document.getElementById('add-answer');
 
+const subtractNumber1 = document.getElementById('subtract-number-1');
+const subtractNumber2 = document.getElementById('subtract-number-2');
+const subtractButton = document.getElementById('subtract-button');
+const subtractAnswer = document.getElementById('subtract-answer');
+
 
 // set event listeners 
 addButton.addEventListener ('click', () => {
@@ -17,6 +22,9 @@ addButton.addEventListener ('click', () => {
 
 });
 
+subtractButton.addEventListener ('click', () => {
+    
+});
     // get user input(s)
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
