@@ -3,7 +3,7 @@
 
 // import { add } from '../calculator.js';
 
-const test1 = QUnit.test;
+/*const test1 = QUnit.test;
 
 // name your test by what it is testing
 test1('add two numbers', (expect) => {
@@ -38,5 +38,22 @@ test('subtract function', (expect) => {
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
-});
+});*/
 
+import { multiply } from '../calculator.js';
+
+const test2 = QUnit.test;
+
+test2('multiply function', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = 6;
+
+    //Act
+    // Call the function you're testing and set the result to a const
+    const actual = multiply(2, 3);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
