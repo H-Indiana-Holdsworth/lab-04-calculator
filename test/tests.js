@@ -21,3 +21,21 @@ test('add two numbers', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+import { subtract } from '../calculator.js';
+
+const bing = QUnit.test;
+
+bing('subtract function', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = 1;
+
+    //Act
+    // Call the function you're testing and set the result to a const
+    const actual = subtract(3, 2);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
