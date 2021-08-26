@@ -1,5 +1,5 @@
 // import functions
-import { add, subtract } from './calculator.js';
+import { add, subtract, multiply } from './calculator.js';
 
 // reference needed DOM elements
 const addNumber1 = document.getElementById('add-number-1');
@@ -16,6 +16,7 @@ const multiplyNumber1 = document.getElementById('multiply-number-1');
 const multiplyNumber2 = document.getElementById('multiply-number-2');
 const multiplyButton = document.getElementById('multiply-button');
 const multiplyAnswer = document.getElementById('multiply-answer');
+
 
 // set event listeners 
 addButton.addEventListener ('click', () => {
@@ -34,6 +35,10 @@ subtractButton.addEventListener ('click', () => {
 });
 
 multiplyButton.addEventListener ('click', () => {
+    const num5 = Number(multiplyNumber1.value);
+    const num6 = Number(multiplyNumber2.value);
+    const product = multiply(num5, num6);
+    multiplyAnswer.textContent = product;
 });
     // get user input(s)
     // do any needed work with the value(s)
