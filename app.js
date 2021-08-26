@@ -1,5 +1,5 @@
 // import functions
-import { add, subtract, multiply } from './calculator.js';
+import { add, subtract, multiply, divide } from './calculator.js';
 
 // reference needed DOM elements
 const addNumber1 = document.getElementById('add-number-1');
@@ -47,6 +47,10 @@ const divideButton = document.getElementById('divide-button');
 const divideAnswer = document.getElementById('divide-answer');
 
 divideButton.addEventListener ('click', () => {
+    const num7 = Number(divideNumber1.value);
+    const num8 = Number(divideNumber2.value);
+    const quotient = divide(num7, num8);
+    divideAnswer.textContent = quotient;
 });
     // get user input(s)
     // do any needed work with the value(s)
