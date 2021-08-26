@@ -1,12 +1,12 @@
 // IMPORT MODULES under test here:
-import { add } from '../calculator.js';
+//import { add } from '../calculator.js';
 
 // import { add } from '../calculator.js';
 
-const test = QUnit.test;
+//const test = QUnit.test;
 
 // name your test by what it is testing
-test('add two numbers', (expect) => {
+/*test('add two numbers', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const x = 1;
@@ -20,22 +20,23 @@ test('add two numbers', (expect) => {
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
-});
+});*/
 
 import { subtract } from '../calculator.js';
 
-const bing = QUnit.test;
+const test = QUnit.test;
 
-bing('subtract function', (expect) => {
+test('subtract function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = 1;
+    const expected = 2;
 
     //Act
     // Call the function you're testing and set the result to a const
-    const actual = subtract(3, 2);
+    const actual = subtract(3, 1);
 
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
