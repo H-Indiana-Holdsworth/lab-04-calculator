@@ -4,7 +4,7 @@
 const test = QUnit.test;
 
 function add(n1, n2) {
-    return n1 + n2
+    return n1 + n2;
 }
 
 // name your test by what it is testing
