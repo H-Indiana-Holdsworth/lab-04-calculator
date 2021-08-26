@@ -40,7 +40,7 @@ test('subtract function', (expect) => {
     expect.equal(actual, expected);
 });*/
 
-import { multiply } from '../calculator.js';
+/*import { multiply } from '../calculator.js';
 
 const test2 = QUnit.test;
 
@@ -52,6 +52,24 @@ test2('multiply function', (expect) => {
     //Act
     // Call the function you're testing and set the result to a const
     const actual = multiply(2, 3);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});*/
+
+import { divide } from '../calculator.js';
+
+const test3 = QUnit.test;
+
+test3('divide function', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = 2;
+
+    //Act
+    // Call the function you're testing and set the result to a const
+    const actual = divide(6, 3);
 
     //Expect
     // Make assertions about what is expected versus the actual result
