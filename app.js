@@ -12,6 +12,10 @@ const subtractNumber2 = document.getElementById('subtract-number-2');
 const subtractButton = document.getElementById('subtract-button');
 const subtractAnswer = document.getElementById('subtract-answer');
 
+const multiplyNumber1 = document.getElementById('multiply-number-1');
+const multiplyNumber2 = document.getElementById('multiply-number-2');
+const multiplyButton = document.getElementById('multiply-button');
+const multiplyAnswer = document.getElementById('multiply-answer');
 
 // set event listeners 
 addButton.addEventListener ('click', () => {
@@ -27,6 +31,9 @@ subtractButton.addEventListener ('click', () => {
     const num4 = Number(subtractNumber2.value);
     const difference = subtract(num3, num4);
     subtractAnswer.textContent = difference;
+});
+
+multiplyButton.addEventListener ('click', () => {
 });
     // get user input(s)
     // do any needed work with the value(s)

@@ -3,10 +3,10 @@
 
 // import { add } from '../calculator.js';
 
-//const test = QUnit.test;
+const test1 = QUnit.test;
 
 // name your test by what it is testing
-/*test('add two numbers', (expect) => {
+test1('add two numbers', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const x = 1;
@@ -20,7 +20,7 @@
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
-});*/
+});
 
 import { subtract } from '../calculator.js';
 
